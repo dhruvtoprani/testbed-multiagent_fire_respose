@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 2px;
+    margin: 20px;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  .fire-A {
+    background-color: rgba(255, 100, 100, 0.7);
+  }
+  
+  .fire-B {
+    background-color: rgba(255, 165, 0, 0.7);
+  }
+  
+  .fire-C {
+    background-color: rgba(255, 255, 0, 0.7);
+  }
+  
+  #side-panel {
+    width: 300px;
+    background-color: #ffffff;
+    border-left: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .agent-panel {
+    margin-bottom: 20px;
+  }
+  
+  .agent-panel button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  #stats {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  #stats-panel {
+    width: 200px;
+    background-color: #ffffff;
+    border-left: 1px solid #ccc;
+    padding: 15px;
+    margin-left: 5px;
+  }
+  .in-progress {
+    background-color: #6aa3f0 !important;
+  }
+  .agent-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .agent-status-list {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .agent-section h4 {
+    margin-bottom: 6px;
+    color: #222;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  #performance-panel {
+    border-left: 2px solid #ddd;
+    padding: 10px;
+    margin-left: 20px;
+    width: 300px;
+    float: right;
+    background: #f8f8f8;
+  }
+  
+  .agent-block {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .agent-block h4 {
+    margin-top: 0;
+  }
+    
+
+  #preference-panel {
+    margin-bottom: 15px;
+  }
+  
+  .pref-btn {
+    margin-right: 8px;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: #eee;
+  }
+  
+  .pref-btn.selected {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+  }
+  

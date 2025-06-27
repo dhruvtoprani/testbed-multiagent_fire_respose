@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fire Response Testbed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="preference-panel">
+        <h3>Human Preferences</h3>
+        <button class="pref-btn" data-severity="A">High</button>
+        <button class="pref-btn" data-severity="B">Medium</button>
+        <button class="pref-btn" data-severity="C">Low</button>
+      </div>
+      
+  <div id="grid"></div>
+
+  <div id="side-panel">
+
+    
+    <div id="agent-control">
+        <h3>Agent Control Panel</h3>
+      
+        <div class="agent-section">
+          <h4>Human Agent</h4>
+          <ul id="agent1-status" class="agent-status-list"></ul>
+        </div>
+      
+        <div class="agent-section">
+          <h4>Robot 1</h4>
+          <ul id="agent2-status" class="agent-status-list"></ul>
+        </div>
+      
+        <div class="agent-section">
+          <h4>Robot 2</h4>
+          <ul id="agent3-status" class="agent-status-list"></ul>
+        </div>
+
+      </div>
+      <div id="side-panel">
+      <div id="performance-panel">
+        <h3>Agent Performance Stats</h3>
+        
+        <div id="agent1-stats" class="agent-block">
+          <h4>Human</h4>
+          <ul class="agent-status-list"></ul>
+        </div>
+      
+        <div id="agent2-stats" class="agent-block">
+          <h4>Robot 1</h4>
+          <ul class="agent-status-list"></ul>
+        </div>
+      
+        <div id="agent3-stats" class="agent-block">
+          <h4>Robot 2</h4>
+          <ul class="agent-status-list"></ul>
+        </div>
+      </div>
+      </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
