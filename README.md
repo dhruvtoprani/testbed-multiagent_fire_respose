@@ -1,16 +1,27 @@
 # Multi-Agent Fire Response Testbed
 
-A simulation testbed for exploring multi-agent behavior in emergency-response scenarios.
+**Simulation testbed for exploring agent coordination, emergency-response workflows, and planning under operational constraints.**
 
-## What it shows
+<p>
+  <code>Multi-Agent Systems</code>
+  <code>Simulation</code>
+  <code>Emergency Response</code>
+  <code>Human-Agent Workflows</code>
+</p>
 
-- Curiosity around agent coordination
-- Systems thinking under operational constraints
-- Simulation as a way to reason about product and deployment decisions
-- Interest in robotics, planning, and human-agent workflows
+## Product Signal
 
-## Future ideas
+This project explores how multiple agents can coordinate in high-pressure scenarios where timing, roles, and constraints matter. It connects technical simulation with product thinking: before building a real deployment workflow, model the behavior, surface tradeoffs, and understand where coordination breaks down.
 
-- Add screenshots or a short GIF
-- Document the model assumptions
-- Add a brief explanation of the agent behavior
+## What I Explored
+
+- Agent coordination under operational constraints
+- Emergency-response task flow modeling
+- Simulation as a tool for product and systems reasoning
+- How planning logic can support robotics and human-agent workflows
+
+## Future Iterations
+
+- Add screenshots or a short simulation GIF
+- Document model assumptions and agent behavior
+- Add a clearer experiment log for scenario comparisons
