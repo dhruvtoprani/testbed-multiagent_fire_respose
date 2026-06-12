@@ -1,17 +1,16 @@
 # Multi-Agent Fire Response Testbed
 
-A small simulation/testbed repo for exploring multi-agent response behavior in emergency scenarios.
+A simulation testbed for exploring multi-agent behavior in emergency-response scenarios.
 
-## Status
+## What it shows
 
-Exploratory prototype. This aligns with robotics, simulation, and human/agent coordination interests, but it needs stronger documentation, experiment outputs, and visuals before being featured publicly.
+- Curiosity around agent coordination
+- Systems thinking under operational constraints
+- Simulation as a way to reason about product and deployment decisions
+- Interest in robotics, planning, and human-agent workflows
 
-## Portfolio role
+## Future ideas
 
-Secondary/supporting repo. Keep public only if it remains readable and clearly framed as an experiment rather than a finished product.
-
-## Next cleanup items
-
-- Fix naming typo from `respose` to `response` in future repo/title references
-- Add screenshots or a short GIF if the simulation has a visual interface
-- Add a brief model/agent behavior explanation if this becomes portfolio-facing
+- Add screenshots or a short GIF
+- Document the model assumptions
+- Add a brief explanation of the agent behavior
